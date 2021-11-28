@@ -35,7 +35,7 @@ class RobinKarp{
 	//Function to compare possible pattern in a given string
 	private boolean compareCharArrayWindow(char[] text, char[] pattern, int startIndex, int window){
 		for(int i=0;i<window;++i){
-		if(text[i+startIndex]!=pattern[i]) return false;
+			if(text[i+startIndex]!=pattern[i]) return false;
 		}
 		return true;
 	}
