@@ -45,10 +45,10 @@ class CountingSort{
 
 	//Main method
 	public static void main(String[] args){
-			int[] arr=new int[]{1,4,1,2,7,5,2};
-			System.out.println("Unsorted array:");
-			print(arr);
-			System.out.println("\nSorted array");
-			sort(arr);
+		int[] arr=new int[]{1,4,1,2,7,5,2};
+		System.out.println("Unsorted array:");
+		print(arr);
+		System.out.println("\nSorted array");
+		sort(arr);
 	}
 }
